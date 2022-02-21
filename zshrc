@@ -161,5 +161,7 @@ ZSH_HIGHLIGHT_STYLES[rc-quote]=fg=202,bold
 ZSH_HIGHLIGHT_STYLES[dollar-double-quoted-argument]=fg=202,bold
 ZSH_HIGHLIGHT_STYLES[back-double-quoted-argument]=fg=202,bold
 ZSH_HIGHLIGHT_STYLES[back-dollar-quoted-argument]=fg=202,bold
+ZSH_HIGHLIGHT_STYLES[reserved-word]=fg=15,bold
+ZSH_HIGHLIGHT_STYLES[redirection]=fg=232,bold
 #https://www.ditig.com/256-colors-cheat-sheet
 #https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/highlighters/main/main-highlighter.zsh
