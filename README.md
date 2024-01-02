@@ -82,4 +82,5 @@ ZSH_HIGHLIGHT_STYLES[redirection]=fg=232,bold
 alias python3='/usr/local/bin/python3'
 
 gettags() {fetch_for=$1 ; curl -L -s "https://registry.hub.docker.com/v2/repositories/library/$fetch_for/tags?page_size=1024"|jq '."results"[]["name"]' }
+PS1='%t @Bharath  %~ ~ %'
 ```
